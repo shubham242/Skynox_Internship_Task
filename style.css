@@ -1,0 +1,78 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.images{
+  width: 50%;
+}
+
+.info{
+  width: 50%;
+  border: solid;
+  border-width: 5px;
+}
+
+.content{
+  margin-top: 70px;
+  margin-left:  40px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name{
+  font-family: 'DM Serif Display', serif;
+}
+
+.by{
+  margin: 5px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.desc{
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rate {
+  width: 100px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:20px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #00D09A;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #00D09A;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #00D09A;
+}
+
+.review{
+  font-size: 0.75em;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: 5px 0;
+}
