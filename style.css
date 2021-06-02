@@ -176,17 +176,6 @@ ol, li {
 .rate > input:checked ~ label {
     color: #0FD4A2;
 }
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
-    color: #0FD4A2;
-}
-.rate > input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
-    color: #0FD4A2;
-}
 
 .review{
   font-size: 10.5px;
