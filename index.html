@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/renner" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
   </head>
   <body>
     <div class="main">
@@ -30,20 +35,38 @@
             <input type="radio" id="star5" name="rate" value="5" />
             <label for="star5" title="text"></label>
           </div>
-          <h6 class="review"><span style="color:#00D09A">(5.0)</span> review based on 250</h6>
+          <h6 class="review"><span style="color:#0FD4A2">(5.0)</span> review based on 250</h6>
+          <h6 class="submit" onclick="">Submit Review</h6>
+          <h2 class="price">$567</h2>
+          <h6 class="dispatch"><i class="material-icons" style="font-size:14px">schedule</i> Dispatched in 7 working days</h6>
+          <div class="add-div">
+            <button type="button" class="add add-black">ADD TO CART</button>
+            <button type="button" class="add add-white">ADD TO WISHLIST</button>
+          </div>
         </div>
       </div>
     </div>
     <footer>
-      <div class="">
-        <div class="">
-
+      <div class="wrapper">
+        <div class="foot foot-left">
+          <div class="foot-content">
+            <h2 class="foot-head">Secure Payment</h2>
+            <h6 class="foot-body">Don't worry, your money is in secure places</h6>
+          </div>
         </div>
-        <div class="">
-
+        <div class="foot foot-mid">
+          <i class="material-icons-outlined">local_shipping</i>
+          <div class="foot-content">
+            <h2 class="foot-head">Fast & free delivery</h2>
+            <h6 class="foot-body">Home delivery $15, For free delivery order over $250</h6>
+          </div>
         </div>
-        <div class="">
-
+        <div class="foot foot-right">
+          <img class="return" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMXB0IiB2aWV3Qm94PSIwIDEgNTExLjk5OTgxIDUxMSIgd2lkdGg9IjUxMXB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im01MDYuODEyNSAxMTEuMjMwNDY5LTE5OS40MDYyNS0xMDkuNDk2MDk0Yy0yLjk5NjA5NC0xLjY0NDUzMTItNi42Mjg5MDYtMS42NDQ1MzEyLTkuNjI1IDBsLTc1LjE2MDE1NiA0MS4yNjk1MzFjLTEuNTg1OTM4LjQxNzk2OS0zLjA2NjQwNiAxLjIxNDg0NC00LjI5Mjk2OSAyLjM1OTM3NWwtMTE5Ljk0OTIxOSA2NS44NjcxODhjLTMuMTk5MjE4IDEuNzUzOTA2LTUuMTg3NSA1LjExMzI4MS01LjE4NzUgOC43NjU2MjV2MTMyLjQyOTY4N2MtMjAuMjM0Mzc1IDYuMzI4MTI1LTM4Ljc3NzM0NCAxNy40ODgyODEtNTQuMTk1MzEyIDMyLjkxMDE1Ny00MC4xODc1IDQwLjE4MzU5My01MC40MzM1OTQgMTAxLjQ3MjY1Ni0yNS40OTYwOTQgMTUyLjUwNzgxMiAyLjQyMTg3NSA0Ljk2MDkzOCA4LjQxMDE1NiA3LjAxOTUzMSAxMy4zNzEwOTQgNC41OTM3NSA0Ljk2NDg0NC0yLjQyNTc4MSA3LjAxOTUzMS04LjQxNDA2MiA0LjU5NzY1Ni0xMy4zNzUtMjEuMTg3NS00My4zNjMyODEtMTIuNDgwNDY5LTk1LjQzNzUgMjEuNjY3OTY5LTEyOS41ODU5MzggMjEuMzU1NDY5LTIxLjM1NTQ2OCA0OS43NDYwOTMtMzMuMTE3MTg3IDc5Ljk0NTMxMi0zMy4xMTcxODdzNTguNTg5ODQ0IDExLjc2MTcxOSA3OS45NDUzMTMgMzMuMTE3MTg3YzIxLjM1MTU2MiAyMS4zNTE1NjMgMzMuMTEzMjgxIDQ5Ljc0MjE4OCAzMy4xMTMyODEgNzkuOTQxNDA3cy0xMS43NjE3MTkgNTguNTg5ODQzLTMzLjExNzE4NyA3OS45NDUzMTJjLTM0LjE0ODQzOCAzNC4xNDg0MzgtODYuMjIyNjU3IDQyLjg1NTQ2OS0xMjkuNTg1OTM4IDIxLjY2Nzk2OS00Ljk2MDkzOC0yLjQyNTc4MS0xMC45NDkyMTktLjM2NzE4OC0xMy4zNzEwOTQgNC41OTM3NS0yLjQyNTc4MSA0Ljk2NDg0NC0uMzcxMDk0IDEwLjk1MzEyNSA0LjU5Mzc1IDEzLjM3NSAxOC41ODk4NDQgOS4wODU5MzggMzguNTM1MTU2IDEzLjUgNTguMzM1OTM4IDEzLjUgMzQuNTQyOTY4LS4wMDM5MDYgNjguNjI1LTEzLjQ0OTIxOSA5NC4xNzE4NzUtMzguOTk2MDk0IDExLjcxNDg0My0xMS43MTQ4NDQgMjAuOTcyNjU2LTI1LjIzMDQ2OCAyNy41MjM0MzctMzkuOTIxODc1bDQzLjA4OTg0NCAyMy42NjAxNTdjMS41LjgyNDIxOCAzLjE1NjI1IDEuMjM0Mzc0IDQuODEyNSAxLjIzNDM3NHMzLjMxNjQwNi0uNDEwMTU2IDQuODEyNS0xLjIzNDM3NGwxOTkuNDA2MjUtMTA5LjQ5MjE4OGMzLjE5OTIxOS0xLjc1NzgxMiA1LjE4NzUtNS4xMTcxODggNS4xODc1LTguNzY1NjI1di02OS40OTYwOTRjMC01LjUyMzQzNy00LjQ3NjU2Mi0xMC0xMC0xMHMtMTAgNC40NzY1NjMtMTAgMTB2NjMuNTc4MTI1bC0xNzkuMzc1IDk4LjQ5NjA5NHYtMTk2LjE3MTg3NWw1OS4xOTkyMTktMzIuNTA3ODEzdjUxLjUzMTI1YzAgMy41MzkwNjMgMS44NjcxODcgNi44MTI1IDQuOTEwMTU2IDguNjA5Mzc2IDEuNTcwMzEzLjkyNTc4MSAzLjMyODEyNSAxLjM5MDYyNCA1LjA4OTg0NCAxLjM5MDYyNCAxLjY1NjI1IDAgMy4zMTY0MDYtLjQxMDE1NiA0LjgyMDMxMi0xLjIzODI4MWw0Mi43MzA0NjktMjMuNTE5NTMxYzMuMTk1MzEyLTEuNzU3ODEyIDUuMTc1NzgxLTUuMTEzMjgxIDUuMTc1NzgxLTguNzU3ODEydi02Mi40NjA5MzhsNTcuNDQ5MjE5LTMxLjU0Mjk2OXY1Mi41OTc2NTdjMCA1LjUyMzQzNyA0LjQ3NjU2MiAxMCAxMCAxMHMxMC00LjQ3NjU2MyAxMC0xMHYtNjkuNDk2MDk0YzAtMy42NDg0MzgtMS45ODgyODEtNy4wMTE3MTktNS4xODc1LTguNzY1NjI1em0tMjA0LjIxODc1LTg5LjMyNDIxOSAxNzguNjI4OTA2IDk4LjA4OTg0NC01Ni4zNDc2NTYgMzAuOTQxNDA2LTE3OC42Mjg5MDYtOTguMDg5ODQ0em0wIDE5Ni4xNzU3ODEtMTc4LjYyODkwNi05OC4wODU5MzcgNTguNDE0MDYyLTMyLjA3ODEyNSAxNzguNjMyODEzIDk4LjA4NTkzN3ptNzkuMTkxNDA2LTQzLjQ4NDM3NS0xNzguNjI4OTA2LTk4LjA4NTkzNyAyMi4zMTI1LTEyLjI1MzkwNyAxNzguNjMyODEyIDk4LjA4NTkzOHptLTE1NC42MTcxODcgMTEwLjczODI4MmMtMjUuMTMyODEzLTI1LjEzMjgxMy01OC41NDY4NzUtMzguOTcyNjU3LTk0LjA4NTkzOC0zOC45NzI2NTctNi43MjI2NTYgMC0xMy4zNjMyODEuNDk2MDk0LTE5Ljg5MDYyNSAxLjQ2ODc1di0xMTAuOTM3NWwxNzkuNDM3NSA5OC41MzEyNXYxOTYuMTcxODc1bC0zMS4xNDQ1MzEtMTcuMTAxNTYyYzMuMDY2NDA2LTExLjI4OTA2MyA0LjY1MjM0NC0yMy4wNjI1IDQuNjUyMzQ0LTM1LjA3ODEyNSAwLTM1LjUzOTA2My0xMy44Mzk4NDQtNjguOTUzMTI1LTM4Ljk2ODc1LTk0LjA4MjAzMXptMTg3LjM4NjcxOS02MC4zNDc2NTctMjIuNzMwNDY5IDEyLjUxMTcxOXYtNDUuNTk3NjU2bDIyLjczMDQ2OS0xMi40ODA0Njl6bTAgMCIvPjxwYXRoIGQ9Im01MDIgMjE5LjQ0MTQwNmMtMi42Mjg5MDYgMC01LjIxMDkzOCAxLjA3MDMxMy03LjA3MDMxMiAyLjkyOTY4OC0xLjg1OTM3NiAxLjg1OTM3NS0yLjkyOTY4OCA0LjQzNzUtMi45Mjk2ODggNy4wNzAzMTIgMCAyLjYyODkwNiAxLjA3MDMxMiA1LjIwNzAzMiAyLjkyOTY4OCA3LjA2NjQwNiAxLjg1OTM3NCAxLjg2MzI4MiA0LjQ0MTQwNiAyLjkyOTY4OCA3LjA3MDMxMiAyLjkyOTY4OHM1LjIxMDkzOC0xLjA2NjQwNiA3LjA3MDMxMi0yLjkyOTY4OGMxLjg1OTM3Ni0xLjg1OTM3NCAyLjkyOTY4OC00LjQzNzUgMi45Mjk2ODgtNy4wNjY0MDYgMC0yLjYzMjgxMi0xLjA3MDMxMi01LjIxMDkzNy0yLjkyOTY4OC03LjA3MDMxMi0xLjg1OTM3NC0xLjg1OTM3NS00LjQ0MTQwNi0yLjkyOTY4OC03LjA3MDMxMi0yLjkyOTY4OHptMCAwIi8+PHBhdGggZD0ibTk5LjQ1NzAzMSAzODkuNDE3OTY5YzIuNTU4NTk0IDAgNS4xMjEwOTQtLjk3NjU2MyA3LjA3MDMxMy0yLjkyNTc4MSAzLjkwNjI1LTMuOTA2MjUgMy45MDYyNS0xMC4yMzgyODIgMC0xNC4xNDQ1MzJsLTYuOTI1NzgyLTYuOTI5Njg3aDU5LjEwMTU2M2MxNC4zMzU5MzcgMCAyNiAxMS42NjQwNjIgMjYgMjYgMCAxNC4zMzU5MzctMTEuNjY0MDYzIDI2LTI2IDI2aC0zNS4wMTk1MzFjLTUuNTIzNDM4IDAtMTAgNC40NzY1NjItMTAgMTAgMCA1LjUxOTUzMSA0LjQ3NjU2MiA5Ljk5NjA5MyAxMCA5Ljk5NjA5M2gzNS4wMTk1MzFjMjUuMzYzMjgxIDAgNDYtMjAuNjMyODEyIDQ2LTQ1Ljk5NjA5M3MtMjAuNjM2NzE5LTQ1Ljk5NjA5NC00Ni00NS45OTYwOTRoLTU5LjEwMTU2M2w2LjkyNTc4Mi02LjkyOTY4N2MzLjkwNjI1LTMuOTA2MjUgMy45MDYyNS0xMC4yMzgyODIgMC0xNC4xNDQ1MzItMy45MDIzNDQtMy45MDIzNDQtMTAuMjM0Mzc1LTMuOTAyMzQ0LTE0LjE0MDYyNSAwbC0yNCAyNGMtMy45MDIzNDQgMy45MDYyNS0zLjkwMjM0NCAxMC4yMzgyODIgMCAxNC4xNDQ1MzJsMjQgMjMuOTk2MDkzYzEuOTUzMTI1IDEuOTUzMTI1IDQuNTExNzE5IDIuOTI5Njg4IDcuMDcwMzEyIDIuOTI5Njg4em0wIDAiLz48cGF0aCBkPSJtNDYuMDc0MjE5IDQ3Ni40NDkyMTljLTIuODQzNzUgMC01LjY2Nzk2OS0xLjIxMDkzOC03LjY0MDYyNS0zLjU1ODU5NGwtLjAxOTUzMi0uMDIzNDM3Yy0zLjU1NDY4Ny00LjIyNjU2My0zLjAwNzgxMi0xMC41MzEyNSAxLjIxODc1LTE0LjA4NTkzOCA0LjIyNjU2My0zLjU1ODU5NCAxMC41MzUxNTctMy4wMTE3MTkgMTQuMDg5ODQ0IDEuMjE0ODQ0IDMuNTUwNzgyIDQuMjMwNDY4IDMuMDE1NjI1IDEwLjU0Njg3NS0xLjIxMDkzNyAxNC4xMDE1NjItMS44Nzg5MDcgMS41NzgxMjUtNC4xNjQwNjMgMi4zNTE1NjMtNi40Mzc1IDIuMzUxNTYzem0wIDAiLz48L3N2Zz4=" />
+          <div class="foot-content">
+          <h2 class="foot-head">Return policy</h2>
+          <h6 class="foot-body">No hassle return policy</h6>
+          </div>
         </div>
       </div>
     </footer>

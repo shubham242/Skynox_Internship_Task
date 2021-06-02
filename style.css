@@ -1,3 +1,6 @@
+body{
+  background-color: #FFFDFC;
+}
 .main{
   display: flex;
   flex-direction: row;
@@ -10,34 +13,38 @@
 
 .info{
   width: 50%;
-  border: solid;
-  border-width: 5px;
 }
 
 .content{
-  margin-top: 70px;
-  margin-left:  40px;
-  width: 360px;
+  margin-top: 50px;
+  margin-left:  77px;
+  width: 325px;
   display: flex;
   flex-direction: column;
 }
 
 .name{
   font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  margin: 15px 0;
 }
 
 .by{
-  margin: 5px 0;
-  font-family: 'Roboto', sans-serif;
+  margin: 2px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
 }
 
 .desc{
-  font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'JostRegular';
+  font-weight: normal;
+  margin: 17px 0 10px;
+  font-size: 12px;
 }
 
 .rate {
-  width: 100px;
+  width: 65px;
+  height: 22px;
 }
 .rate:not(:checked) > input {
     position:absolute;
@@ -45,34 +52,148 @@
 }
 .rate:not(:checked) > label {
     float:right;
-    width:1em;
+    width:13px;
     overflow:hidden;
-    white-space:nowrap;
     cursor:pointer;
-    font-size:20px;
+    font-size:17px;
     color:#ccc;
 }
 .rate:not(:checked) > label:before {
-    content: '★ ';
+    content: '★';
 }
 .rate > input:checked ~ label {
-    color: #00D09A;
+    color: #0FD4A2;
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
-    color: #00D09A;
+    color: #0FD4A2;
 }
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
 .rate > input:checked ~ label:hover,
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
-    color: #00D09A;
+    color: #0FD4A2;
 }
 
 .review{
-  font-size: 0.75em;
+  font-size: 10.5px;
+  font-family: 'JostRegular';
+  font-weight: normal;
+  margin: 4px 0;
+}
+
+.submit{
+  font-size: 10px;
+  margin: 4px 0 6px;
+  font-family: 'JostRegular';
+  font-weight: normal;
+  border-bottom-style: solid;
+  /* padding-bottom: 0.5px; */
+  width: fit-content;
+  border-width: 0.5px;
+}
+.submit:hover{
+  cursor: pointer;
+}
+
+.price{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 22px;
+  margin: 14px 0;
+  letter-spacing: 1.5px;
+}
+
+.dispatch{
+  font-size: 11px;
+  margin: 18px 0 7px;
+  font-family: 'JostRegular';
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+.material-icons{
+  position: relative;
+  top: 4px;
+  left: -1px;
+  font-size: 13px;
+}
+
+.add-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.add{
+  height: 39px;
+  font-family: 'JostRegular';
+  font-weight: normal;
+  font-size: 11px;
+  border-width: 1px;
+  transition: 0.3s;
+}
+
+.add-black{
+  width: 132px;
+  background-color: black;
+  color: #FFFDFC;
+}
+
+.add-white{
+  width: 152px;
+  background-color: inherit;
+  margin-left: 9px;
+}
+
+.add-black:hover{
+  background-color: #454444;
+  cursor: pointer;
+}
+
+.add-white:hover{
+  background-color: #dbdad9;
+  cursor: pointer;
+}
+
+footer{
+  position: fixed;
+  bottom: 44px;
+  width: 100%;
+}
+
+.wrapper{
+  background-color: white;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.foot{
+  display: flex;
+  flex-direction: row;
+}
+
+.foot-content{
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+}
+
+.foot-head{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  margin: 8px 0;
+}
+
+.foot-body{
+  font-family: 'Red Hat Display', sans-serif;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-  margin: 5px 0;
+  margin: 0;
+}
+
+.return{
+  width: 16px;
+  height: 16px;
 }
