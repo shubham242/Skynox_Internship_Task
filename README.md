@@ -1,2 +1,2 @@
 # Skynox_Internship_Task
-Copy of a UI design
+Webpage of a UI design
