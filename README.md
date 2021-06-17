@@ -1,2 +1,3 @@
 # Skynox_Internship_Task
-Webpage of a UI design
+
+![Preview](https://github.com/shubham242/Skynox_Internship_Task/blob/master/Skynox_Internship.png)
